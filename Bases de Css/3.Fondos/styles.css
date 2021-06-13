@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+    
+    /*background-image: url("img/patron-3.jpg"); /* Imagen de fondo */
+    /*background-repeat: no-repeat; /* Es para repetir la imagen o no*/
+    /*background-size: 100% 100%; /* Es para darle el tamaño a la imagen */
+    /*background-attachment: fixed; /* permite que la imagen no se mueva si se hace escroll */
+    /*background-position: left bottom; /* Posiciona la imagen arriba a la derecha o etc*/
+
+    color: white;
+    text-align: center; /* Aliniar el texto de la página */
+    text-indent: 15px; /* Corre el texto */
+
+    /*
+    word-spacing: 10px; /* Establece una separación entre las palabras *//*
+    letter-spacing: 5px; /* Da un espaciado entre letras */
+    
+}
+
+#caja{
+    width: 600px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 10px;
+    background: blue;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 50px; /* Establece la altura de una linea en un texto */
+    text-transform: uppercase; /* Especifica el cambio entre mayusculas y minusculas  */
+    text-decoration: line-through; /* Establece el texto en un formato subrayado, parpadeo ó tachado */
+}
+
+h2{
+    color: blue;
+    background: white;
+    background-image: url("img/patron-1.png");
+    border: 5px solid chocolate; /* Pone borde al rededor de lo seleccionado */
+}
+

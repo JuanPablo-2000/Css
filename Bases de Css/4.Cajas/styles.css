@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 40px;
+}
+
+#cajas {
+    max-width: 1035px;
+    border: 1px solid black;
+}
+
+.caja {
+    width: 250px;
+    height: 250px;
+    
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 15px; /*margen por izquierda, derecha, arriba y abajo*/
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    margin-right: 10px;
+
+    padding:20px; /* Margen interno */
+    padding-bottom: 34px; /* Margen interno inferior */
+
+    display: block; /* Especifica si los elementos van a ser tratados como bloque ó en-linea*/
+    float: left; /* alinea un conjunto de elementos ha un lugar especificado */
+
+}
+
+.caja p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Consolas;
+    line-height: 235px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}

@@ -1,0 +1,38 @@
+/*Creación de fuentes */
+@font-face{
+	font-family: Asul-Generica;
+	src: url(fonts/Asul-Bold.ttf);
+}
+
+h1{
+	font-family: 'Mansalva', cursive; /*Nuevas fuentes desde Google Font*/
+	font-style: italic; /*Aplicas estilos como italic, bold, oblique*/
+	text-transform:  uppercase; /*Aplica al texto mayusculas, minusculas, normal ó capitalizado*/
+	font-size: 45px;
+
+	/*Colores*/
+
+	/*Colores del sistema*/
+	color:olive;
+
+	/*Colores Hexadecimales*/
+	color: #000000;
+
+	/*Colores RGB*/
+	color: rgb(255, 255, 107);
+
+	/*Colores RGBA*/
+	color: rgba(255, 255, 107, 0.5)
+}
+
+h3{
+	font-family: Asul-Generica;
+	font-size: 35px; /*Tamaño del texto*/
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold; /*Aplica al texto negrita de manera degradada 100 - 900 ó de manera predeterminada*/
+}
+
